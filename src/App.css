@@ -1,0 +1,47 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+div {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(255, 233, 222, 0.822);
+}
+h1{
+  color: rgb(235, 143, 23);
+}
+textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: rgb(235, 143, 23);
+  outline: none;
+}
+
+/* Character count text */
+p {
+  font-size: 1.2rem;
+  color: rgb(235, 143, 23);
+}
+
+
+
+
+
